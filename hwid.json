@@ -1,5 +1,28 @@
 {
-    "registered_devices": {},
-    "last_updated": "2025-09-21T15:39:00Z",
-    "max_devices_per_user": 1
+    "admin": [
+        
+        {
+            "username": "ROHAN",
+            "subscription": "active",
+            "expiry": "2025-07-22",
+            "hwid": "S-1-5-21-2607287190-3554585687-3935447999-1001",
+            "package": "BRUTAL"
+        },
+
+        {
+            "username": "lol",
+            "subscription": "active",
+            "expiry": "2025-07-22",
+            "hwid": "S-1-5-21-2607287190-3554585687-3935447999-1001",
+            "package": "BRUTAL"
+        },
+        
+        {
+            "username": "adit",
+            "password": "$2y$12$oYUpDhn/xMblBr2uN7BSsesQs7aICZQDIJQu/MlwZy3ZxIgblpYgK",
+            "subscription": "aimkillapk",
+            "expiry": "2025-07-31",
+            "device_id": ""
+        }
+    ]
 }
