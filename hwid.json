@@ -1,28 +1,43 @@
 {
-    "admin": [
-        
-        {
-            "username": "ROHAN",
-            "subscription": "active",
-            "expiry": "2025-07-22",
-            "hwid": "S-1-5-21-2607287190-3554585687-3935447999-1001",
-            "package": "BRUTAL"
-        },
-
-        {
-            "username": "lol",
-            "subscription": "active",
-            "expiry": "2025-07-22",
-            "hwid": "S-1-5-21-2607287190-3554585687-3935447999-1001",
-            "package": "BRUTAL"
-        },
-        
-        {
-            "username": "adit",
-            "password": "$2y$12$oYUpDhn/xMblBr2uN7BSsesQs7aICZQDIJQu/MlwZy3ZxIgblpYgK",
-            "subscription": "aimkillapk",
-            "expiry": "2025-07-31",
-            "device_id": ""
-        }
-    ]
+  "metadata": {
+    "last_updated": "2025-09-21T16:12:00Z",
+    "version": "2.0",
+    "total_users": 3
+  },
+  "admin_users": {
+    "ROHMIN": {
+      "username": "ROHMIN",
+      "subscription": "active", 
+      "expiry": "2025-07-22",
+      "hwid": "S-1-5-21-2607287190-3554585687-3935447999-1001",
+      "package": "BRUTAL",
+      "device_type": "Windows"
+    },
+    "namit": {
+      "username": "namit",
+      "subscription": "active",
+      "expiry": "2025-10-21", 
+      "hwid": "web_device_fingerprint_here",
+      "package": "WEB_ADMIN",
+      "device_type": "Web"
+    }
+  },
+  "regular_users": {
+    "lol": {
+      "username": "lol", 
+      "subscription": "active",
+      "expiry": "2025-07-22", 
+      "hwid": "S-1-5-21-2607287190-3554585687-3935447999-1001",
+      "package": "BRUTAL"
+    },
+    "adit": {
+      "username": "adit",
+      "password_hash": "$2y$12$oVUpDm/xMb1Br2uW7BSses0s7aICZQDTJQu/N1wZy3ZxIgb1pYgK",
+      "subscription": "aimkillapk",
+      "expiry": "2025-07-31",
+      "device_id": "",
+      "hwid_pending": true
+    }
+  }
 }
+
